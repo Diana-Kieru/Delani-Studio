@@ -1,11 +1,8 @@
-@media screen and (max-width: 768px) {
-  .masterclass {
-    color: black;
-    min-height: 30vh;
-  }
-  h1 {
-    font-size: calc(1.525rem + 3.3vw);
-  }
+@media screen and(max-width: 760px) {
+    body{
+        background-color: purple
+    }
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
@@ -181,17 +178,23 @@ input {
   margin: 3%;
   color: white;
   width: 25vw;
+  border: 1%;
+  border-color: white;
 }
 #area {
   text-align: center;
   margin-bottom: 80px;
   background-color: transparent;
+  border: 1%;
+  border-color: white;
 }
 textarea {
   background-color: transparent;
   margin-top: 5px;
   color: white;
   width: 55vw;
+  border: 1%;
+  border-color: white;
 }
 .form {
   /* width: 100vw; */
