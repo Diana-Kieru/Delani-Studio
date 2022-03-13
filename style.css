@@ -157,29 +157,49 @@ footer {
   min-height: 100vh;
   width: 100vw;
   position: relative;
+  padding-top: 2%;
 }
 .design, .development, .product{
     width: 30%;
 }
 .input{
     text-align: center;
-    margin: 20%;
-    width: 100vh;
+    /* margin: 5%; */
+    /* width: 100vw; */
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
+    
+   
+}
+input{
+    background-color: transparent;
+    margin: 3%;
+    color: white;
+    width: 25vw;
+
 }
 #area{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    background-color: transparent;
     
 
+}
+textarea{
+    background-color: transparent;
+    margin-top: 5px;
+    color: white;
+    width: 55vw;
+    
 }
 .form{
     /* width: 100vw; */
     text-align: center;
     margin-top: 50px;
     justify-content: center;
+    color: white;
+    
 }
 .H4{
     margin-bottom: 80px;
