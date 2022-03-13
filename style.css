@@ -1,5 +1,6 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .masterclass {
+    color: black;
     min-height: 30vh;
   }
   h1 {
@@ -106,11 +107,10 @@ h1 {
   display: none;
 }
 .container {
-  width: 80%;  
+  width: 80%;
   overflow: auto;
   /* margin-top: -100px; */
   margin-bottom: 5%;
-
 }
 #gallery {
   list-style: none;
@@ -141,73 +141,76 @@ footer {
   padding-top: 10px;
   background: white;
 }
-#heading{
+#heading {
   height: 55px;
   color: black;
   text-align: center;
   padding-top: 10px;
   background: white;
   font-weight: bolder;
-
 }
-.social{
-    text-align: center;
-   
+.social {
+  text-align: center;
 }
-.social img{
-    margin: 0.5%;
+.social img {
+  margin: 0.5%;
 }
 
-.contact{
+.contact {
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
   position: relative;
   padding-top: 2%;
 }
-.design, .development, .product{
-    width: 30%;
+.design,
+.development,
+.product {
+  width: 30%;
 }
-.input{
-    text-align: center;
-    /* margin: 5%; */
-    /* width: 100vw; */
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 5%;
-    
-   
+.input {
+  text-align: center;
+  /* margin: 5%; */
+  /* width: 100vw; */
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
 }
-input{
-    background-color: transparent;
-    margin: 3%;
-    color: white;
-    width: 25vw;
-
+input {
+  background-color: transparent;
+  margin: 3%;
+  color: white;
+  width: 25vw;
 }
-#area{
-    text-align: center;
-    margin-bottom: 80px;
-    background-color: transparent;
-    
-
+#area {
+  text-align: center;
+  margin-bottom: 80px;
+  background-color: transparent;
 }
-textarea{
-    background-color: transparent;
-    margin-top: 5px;
-    color: white;
-    width: 55vw;
-    
+textarea {
+  background-color: transparent;
+  margin-top: 5px;
+  color: white;
+  width: 55vw;
 }
-.form{
-    /* width: 100vw; */
-    text-align: center;
-    margin-top: 50px;
-    justify-content: center;
-    color: white;
-    
+.form {
+  /* width: 100vw; */
+  text-align: center;
+  margin-top: 50px;
+  justify-content: center;
+  color: white;
 }
-.H4{
-    margin-bottom: 80px;
-    
+.H4 {
+  margin-bottom: 80px;
+}
+.one:hover {
+  opacity: calc(20%);
+}
+.social img:hover {
+  opacity: calc(20%);
+}
+#submit {
+  display: block;
+  position: relative;
+  left: 30%;
 }
