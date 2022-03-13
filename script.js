@@ -31,3 +31,10 @@ tools.addEventListener("click", (e)=>{
         icon[2].style.display="block" 
     }
 })
+
+//project gallery
+$(document).ready(funtion(){
+    //heading
+    $('h1#heading').text($(this).text());
+    
+})
