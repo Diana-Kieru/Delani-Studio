@@ -45,6 +45,7 @@ h1 {
   text-align: center;
   height: 60vh;
   width: 100vw;
+  line-height: 3;
 }
 .keyboard {
   height: 50vh;
@@ -65,6 +66,7 @@ h1 {
   color: white;
   font-size: 15px;
   font-weight: bolder;
+  line-height: 2.5;
 }
 .tools {
   display: flex;
@@ -78,13 +80,15 @@ h1 {
 .design {
   margin: 10%;
   display: block;
-  /* border: 2px solid tomato; */
+  line-height: 1.5;
 }
 .development {
   margin: 10%;
+  line-height: 1.5;
 }
 .product {
   margin: 10%;
+  line-height: 1.5;
 }
 #special {
   font-size: 20px;
