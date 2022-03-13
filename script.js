@@ -30,11 +30,6 @@ tools.addEventListener("click", (e)=>{
         description[2].style.display="none"
         icon[2].style.display="block" 
     }
+    // $('h1#heading').text($(this).text());
 })
 
-//project gallery
-$(document).ready(funtion(){
-    //heading
-    $('h1#heading').text($(this).text());
-    
-})
